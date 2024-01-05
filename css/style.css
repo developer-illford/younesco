@@ -144,6 +144,7 @@ nav {
     font-size: 20px;
     margin-bottom: 10px;
     padding-left: 110px;
+ 
   
   }
   .second-content {
@@ -151,6 +152,7 @@ nav {
     font-weight: 600;
     margin-bottom: 15px;
     padding-left: 20px;
+    
   }
   .third-content {
     font-size: 22px;
@@ -161,28 +163,7 @@ nav {
     margin-inline-start: 4px;
     font-size: 56px !important;
   }
-  .home-btn {
-    position: relative;
-    display: inline-block;
-    background: #2697cc;
-    border: .5px solid #2697cc;
-    padding: 15px 35px 15px;
-    height: 50px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 12px;
-    color: #fcf6f6;
-    letter-spacing: 0.05em;
-    font-weight: 700;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease-out;
-    margin-top: 20px;
-  }
-  .home-btn:hover {
-    background-color: rgba(42, 148, 209, 0.801);
-    color: #121313;
-    /* Change text color on hover if needed */
-}
+
   
   @media (max-width: 768px) {
     .home-content {
@@ -254,7 +235,7 @@ nav {
     width: 50%;
     padding-left: 40px;
 
-     border: 2px solid red; 
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,12 +246,16 @@ nav {
 }
 
 .about-intro p {
-    margin: 0;
+    margin-bottom: 10px;
+    color: black;
+  
 }
 
 .about-intro h1 {
     margin-bottom: 20px;
-    color: black
+    color: black;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
 .home-about-img {
@@ -313,3 +298,212 @@ nav {
         box-shadow: none;
     }
 }
+/* 
+home-service-section */
+.home-service-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #9ee2fde8;
+ 
+   /* Added padding for better spacing */
+}
+
+.home-service-containers {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 80px; /* Stack the content vertically */
+}
+
+.home-service-headings {
+  display: flex;
+  flex-direction: column; /* Stack h2 and h1 vertically */
+  justify-content: flex-start; /* Align items to the start of the flex container */
+  align-items: flex-start; /* Align items to the start of the flex container */
+  width: 60%;
+  margin: 0 auto; /* Center the element by adding auto margin on left and right */
+}
+
+.home-service-headings h1,
+.home-service-headings h2 {
+  text-align: left; /* Left-align h1 and h2 */
+  margin-bottom: 10px;
+  color: black;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+
+.home-service-headings h2 {
+  padding-top: 50px;
+  font-size: 2rem;
+}
+
+.home-services-content {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line if there isn't enough space */
+  justify-content: center; 
+  margin-bottom: 40px;
+}
+.card {
+  position: relative;
+  width: 250px; /* Increase the width to your desired value */
+  height: 250px; /* Adjust the height if needed */
+  border-radius: 14px;
+  z-index: 1111;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 20px 20px 60px #b4e7f7, -20px -20px 60px #9adffa9f;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.bg {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 240px; /* Adjust the width to be slightly smaller than the card width */
+  height: 240px; /* Adjust the height to be slightly smaller than the card height */
+  z-index: 2;
+  background: rgba(255, 255, 255, .95);
+  backdrop-filter: blur(24px);
+  border-radius: 10px;
+  overflow: hidden;
+  outline: 2px solid white;
+}
+
+.blob {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #27aaf7;
+  opacity: 1;
+  filter: blur(12px);
+  animation: blob-bounce 5s infinite ease;
+}
+
+@keyframes blob-bounce {
+  0% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+  }
+
+  50% {
+    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+  }
+
+  75% {
+    transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+  }
+
+  100% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+}
+
+button {
+  padding: 0.8em 1.8em;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: .3s;
+  z-index: 1;
+  background-color: #0ca1e6;
+  border: 1.5px solid #2697cc;
+  font-family: inherit;
+  color: #feffff;
+  border-radius: 10px;
+ }
+ 
+ button::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #69abca;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+  
+ }
+ 
+ button:hover::before {
+  width: 105%;
+ }
+ 
+ button:hover {
+  color: #111;
+ }
+ 
+ #appointment {
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 82vh; 
+
+}
+
+.appointment-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.appointment-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.appointment-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #faf6f6ea;
+  color: #0f0f0f;
+  padding: 80px 0;
+}
+
+.footer__widget {
+  margin-bottom: 30px;
+}
+
+.footer h4 {
+  font-size: 24px;
+  color: #0c0b0b;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
