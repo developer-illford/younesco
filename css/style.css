@@ -111,44 +111,41 @@ nav {
   background-repeat: no-repeat; /* This property ensures the background image is not repeated */
 }
 
-.home-content-div {
-  display: flex;
-  justify-content: center;
-}
-
 .home-content {
   color: white;
-  position: absolute;
+  position: relative;
   width: 80%;
-  max-width: 1440px;
+  max-width: 600px;
   border: 2px solid rgb(15, 184, 127);
-  top: 54%; /* Adjust the top value as needed */
-  left: 50%;
+ 
+  margin-top: 17%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Adjusted to start from the left */
+  text-align: left;
+}
 
-  padding-left: 150px;
-  transform: translate(
-    -50%,
-    -50%
-  ); /* Center the content horizontally and vertically */
+.first-content,
+.second-content,
+.third-content {
+  margin-bottom: 15px; /* Adjusted margin for spacing */
 }
 
 .first-content {
   font-weight: 200;
   font-size: 20px;
-  margin-bottom: 10px;
-  padding-left: 110px;
 }
+
 .second-content {
   font-size: 50px;
   font-weight: 600;
-  margin-bottom: 15px;
-  padding-left: 20px;
 }
+
 .third-content {
   font-size: 22px;
-  margin-bottom: 30px;
-  padding-left: 20px;
 }
+
+
 .home-arrow-svg {
   margin-inline-start: 4px;
   font-size: 56px !important;
@@ -156,43 +153,25 @@ nav {
 
 @media (max-width: 768px) {
   .home-content {
-    color: white;
-    position: absolute;
-    width: 80%;
-    max-width: 1440px;
-    top: 35vh;
+    max-width: 80%; /* Adjusted for full width on small screens */
+    padding: 15px; /* Adjusted padding for spacing */
+    align-items: center;
+    text-align: center;
   }
-  .first-content {
-    font-size: 38px;
-  }
-  .second-content {
-    font-size: 38px;
-  }
+
+  .first-content,
+  .second-content,
   .third-content {
-    font-size: 19px;
+    margin-bottom: 10px; /* Adjusted margin for spacing on small screens */
+  }
+
+  .second-content {
+    font-size: 36px; /* Adjusted font size for better readability on small screens */
   }
 }
 
-@media (max-width: 576px) {
-  .first-content {
-    font-size: 30px;
-  }
-  .second-content {
-    font-size: 30px;
-  }
-  .third-content {
-    font-size: 15px;
-  }
-}
-@media (max-width: 400px) {
-  .home-content {
-    color: white;
-    position: absolute;
-    width: 80%;
-    max-width: 1440px;
-    top: 30vh;
-  }
-}
+
+
 
 /* about */
 
@@ -665,5 +644,6 @@ button:hover {
 @media screen and (max-width: 600px) {
   .contact-form-div {
     width: 90%;
+  
   }
 }
