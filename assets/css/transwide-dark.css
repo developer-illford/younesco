@@ -1,0 +1,257 @@
+:root {
+  --transwide-white: #04243D;
+  --transwide-white-rgb: 4, 36, 61;
+  --transwide-white2: #06416F;
+  --transwide-white2-rgb: 6, 65, 111;
+  --transwide-white3: #F2F2F2;
+  --transwide-white3-rgb: 242, 242, 242;
+  --transwide-black: #FFFFFF;
+  --transwide-black-rgb: 255, 255, 255;
+}
+
+.preloader,
+.main-header::after,
+.main-header__call:hover .main-header__call__icon,
+.search-popup__form .transwide-btn__text--2,
+.main-menu .main-menu__list li ul li.current > a,
+.main-menu .main-menu__list li ul li:hover > a,
+.mobile-nav__btn span,
+.service-card__shape,
+.service-card__top::after,
+.service-card:hover .service-card__top,
+.service-card:hover .service-card__top::before,
+.service-card__shape::after,
+.service-card__btn,
+.about-one__main-tab-box .tab-buttons .tab-btn.active-btn .transwide-btn__text--2,
+.about-one__main-tab-box .tab-buttons .tab-btn .transwide-btn__text--2,
+.workflow-process__card__shape::before,
+.pricing-one__card__content::after,
+.project-card__content__inner,
+.why-choose-one__shape::after,
+.quote-request,
+.quote-request__funfact-inner,
+.quote-request__funfact__icon-box,
+.satisfied-customers__count,
+.blog-card__image::before,
+.client-carousel__custome-navs button,
+.main-footer,
+.footer-widget__newsletter__btn {
+  background-color: var(--transwide-white2);
+}
+
+.main-header__btn .transwide-btn__text--2,
+.main-header__inner,
+.search-popup__form input[type=search],
+.search-popup__form input[type=text],
+.mobile-nav__content .main-menu__list li a button.expanded,
+.home-showcase__inner,
+.demo-one__card,
+.main-slider-one__content__inner::before,
+.main-slider-one__tagline,
+.main-slider-one .transwide-btn__text--2,
+.main-slider-one__video:hover,
+.main-slider-one__carousel.owl-carousel .owl-dots .owl-dot,
+.service-card,
+.service-card__icon-box,
+.testimonial-card,
+.pricing-one__card__list,
+.project-card__btn:hover,
+.form-one .bootstrap-select > .dropdown-toggle,
+.form-one input[type=text],
+.form-one input[type=email],
+.form-one input[type=password],
+.form-one input[type=tel],
+.form-one textarea,
+.distance-slider,
+.distance-slider-handle,
+.quote-request__form .transwide-btn__text--2,
+.quote-request__funfact,
+.blog-card__image__link::before,
+.blog-card__image__link::after,
+.footer-widget__newsletter__input,
+.footer-widget__info__icon {
+  background-color: var(--transwide-black);
+}
+
+.form-one .bootstrap-select > .dropdown-toggle {
+  background-color: var(--transwide-black) !important;
+}
+
+.main-slider-one__video {
+  background-color: rgba(var(--transwide-black-rgb), 0.16);
+}
+
+.pricing-one__card:hover .pricing-one__card__list {
+  background-color: rgba(var(--transwide-black-rgb), 0.08);
+}
+
+.footer-widget__about-text::after {
+  background-color: rgba(var(--transwide-black-rgb), 0.3);
+}
+
+.main-header__lniks::after {
+  background-color: rgba(var(--transwide-white2-rgb), 0.2);
+}
+
+.testimonials-one__bg::after {
+  background-color: rgba(var(--transwide-white2-rgb), 0.9);
+}
+
+.project-card__overlay {
+  background-color: rgba(var(--transwide-white2-rgb), 0.51);
+}
+
+.main-menu .main-menu__list li ul,
+.service-card__shape::before,
+.about-one__info__icon-box,
+.testimonial-card__icon-box,
+.pricing-one__card__list li:not(:last-child)::after,
+.form-one .bootstrap-select .dropdown-menu > li > a,
+.blog-card__inner,
+.blog-card__btn,
+.main-header__inner::after {
+  background-color: var(--transwide-white3);
+}
+
+.pricing-one__card__category,
+.why-choose-one__shape {
+  background-color: var(--transwide-color);
+}
+
+@media (max-width: 991px) {
+  .main-header {
+    background-color: var(--transwide-black);
+  }
+}
+.projects-one__bg__main {
+  mix-blend-mode: overlay;
+}
+
+.pricing-one__card__category-bg {
+  fill: var(--transwide-color);
+}
+
+.transwide-owl__carousel--basic-nav.owl-carousel .owl-nav button:hover,
+.transwide-btn__text--1,
+.social-links a,
+.topbar__info li,
+.topbar__date li,
+.topbar__info__icon,
+.topbar__date__icon,
+.main-header__call__icon,
+.search-popup__form .transwide-btn__text--2,
+.main-menu .main-menu__list li ul li.current > a,
+.main-menu .main-menu__list li ul li:hover > a,
+.main-menu .main-menu__list li ul li > a::after,
+.mobile-nav__close,
+.mobile-nav__content .main-menu__list li > a,
+.mobile-nav__content .main-menu__list li a button,
+.mobile-nav__contact__icon,
+.mobile-nav__contact li,
+.main-slider-one__title,
+.main-slider-one__video__icon,
+.service-card__title,
+.service-card__btn__icon,
+.about-one__main-tab-box .tab-buttons .tab-btn.active-btn .transwide-btn__text--2,
+.about-one__main-tab-box .tab-buttons .tab-btn .transwide-btn__text--2,
+.about-one__info__item:hover .about-one__info__icon,
+.about-one__button .transwide-btn__text--2,
+.about-one__experience__year,
+.about-one__experience__text,
+.workflow-process__card:hover .workflow-process__card__number::after,
+.workflow-process__card:hover .workflow-process__card__icon,
+.testimonials-one .sec-title__title,
+.testimonial-card:hover .testimonial-card__icon,
+.pricing-one__card__category,
+.pricing-one__card:hover .pricing-one__card__price,
+.pricing-one__card:hover .pricing-one__card__list li,
+.pricing-one__card:hover .pricing-one__card__list__icon,
+.project-card__btn__icon,
+.project-card__title,
+.why-choose-one__card__icon,
+.why-choose-one__card__title,
+.quote-request .sec-title__title,
+.form-one .bootstrap-select .dropdown-menu > li:hover > a,
+.form-one .bootstrap-select .dropdown-menu > li.selected > a,
+.distance-slider-top,
+.quote-request__funfact__icon,
+.satisfied-customers__count,
+.satisfied-customers__title,
+.blog-card__date__day,
+.blog-card__date__month,
+.blog-card__btn:hover,
+.client-carousel__custome-navs button,
+.client-carousel__custome-navs button:hover,
+.footer-widget__about-title,
+.footer-widget__newsletter__icon,
+.footer-widget__title,
+.footer-widget__blog__title,
+.footer-widget__info li:hover .footer-widget__info__icon {
+  color: var(--transwide-black);
+}
+
+.main-slider-one__text {
+  color: rgba(var(--transwide-black-rgb), 0.6);
+}
+
+.footer-widget__about-text {
+  color: rgba(var(--transwide-black-rgb), 0.8);
+}
+
+.scroll-to-top:hover i,
+.main-header__btn .transwide-btn__text--2,
+.main-menu .main-menu__list > li.current > a,
+.main-menu .main-menu__list > li:hover > a,
+.main-header__call__number,
+.main-header__user,
+.main-header__search,
+.main-menu .main-menu__list li ul li > a,
+.mobile-nav__content .main-menu__list li a button.expanded,
+.demo-one__title,
+.main-slider-one .transwide-btn__text--2,
+.about-one__button .transwide-btn__text--1,
+.testimonial-card__name,
+.testimonial-card__icon,
+.pricing-one__card__list li,
+.pricing-one__card__list__icon,
+.project-card__btn:hover .project-card__btn__icon,
+.form-one .bootstrap-select > .dropdown-toggle:focus,
+.form-one input[type=text]:focus,
+.form-one input[type=email]:focus,
+.form-one input[type=password]:focus,
+.form-one input[type=tel]:focus,
+.form-one textarea:focus,
+.form-one .bootstrap-select .dropdown-menu > li > a,
+.quote-request__form .transwide-btn__text--2,
+.quote-request__funfact__count,
+.blog-card__title,
+.footer-widget__newsletter__input:focus {
+  color: var(--transwide-white2);
+}
+
+.topbar__date li {
+  color: var(--transwide-text-dark);
+}
+
+.mobile-nav__content .main-menu__list li:not(:last-child) {
+  border-color: rgba(var(--transwide-black-rgb), 0.1);
+}
+
+.footer-widget__blog__item + .footer-widget__blog__item,
+.footer-widget--info {
+  border-color: rgba(var(--transwide-black-rgb), 0.24);
+}
+
+.main-slider-one__carousel.owl-carousel .owl-dots .owl-dot::after,
+.satisfied-customers__image img {
+  border-color: var(--transwide-black);
+}
+
+.blog-card__image::after {
+  border-color: transparent transparent transparent var(--transwide-white3);
+}
+
+.workflow-process .container::after {
+  border-color: var(--transwide-color);
+}
+/*# sourceMappingURL=transwide-dark.css.map */
