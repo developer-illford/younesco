@@ -24,7 +24,7 @@
                                 <h2 class="footer-widget__title">Quick Links</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__links">
                                     <li><a href="index.php">Home</a></li>
-                                    <li><a href="index.html#about_section">About</a></li>
+                                    <li><a href="index.php#about_section">About</a></li>
                                     <li><a href="services.php">Services</a></li>
                                     <li><a href="contact.php">Contact</a></li>
                                 </ul>

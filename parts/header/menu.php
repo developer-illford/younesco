@@ -6,7 +6,7 @@
         </li>
 
         <li>
-            <a href="index.html#about_section">About</a>
+            <a href="index.php#about_section">About</a>
         </li>
         <li class="dropdown">
             <a href="services.php">Services</a>
