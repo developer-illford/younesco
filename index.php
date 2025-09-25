@@ -1,4 +1,4 @@
-<?php $head_title = "Home Two || Transwide || Professional Transportation & Logistics PHP Template" ?>
+<?php $head_title =""  ?>
 <?php $body_class="custom-cursor"?>
 <?php
   $home = true;
