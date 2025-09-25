@@ -39,7 +39,7 @@
                         <div class="main-header__button">
                             <a href="contact.php" class="main-header__btn transwide-btn">
                                 <span class="transwide-btn__text transwide-btn__text--1">Get Connected</span>
-                                <span class="transwide-btn__text transwide-btn__text--2">Gett Connected</span>
+                                <span class="transwide-btn__text transwide-btn__text--2">Get Connected</span>
                             </a><!-- /.main-header__btn -->
                             <div class="social-links">
                                 <a href="https://www.facebook.com">

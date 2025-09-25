@@ -42,8 +42,8 @@
                     <div class="service-card-two__image">
                         <div class="service-card-two__image__inner">
                             <img src="assets/images/services/service-1-1.jpg" alt="Real Time <br> Tracking System">
-                            <a href="service-d-real-time-tracking.php" class="service-card-two__image__overlay"></a>
-                            <a href="service-d-real-time-tracking.php" class="service-card-two__btn">
+                            <a  class="service-card-two__image__overlay"></a>
+                            <a  class="service-card-two__btn">
                                 <span class="service-card-two__btn__icon"><i class="icon-right-arrow-up"></i></span>
                             </a><!-- /.service-card-two__btn -->
                         </div><!-- /.service-card-two__image__inner -->
@@ -52,7 +52,7 @@
                     <div class="service-card-two__content">
                         <div class="service-card-two__content__inner">
                             <h3 class="service-card-two__title">
-                                <a href="service-d-real-time-tracking.php">Cargo Transport <br> by Light Trucks</a>
+                                <a >Cargo Transport <br> by Light Trucks</a>
                             </h3><!-- /.service-card-two__title -->
                             <p class="service-card-two__text">Efficient delivery of small to medium-sized loads using agile light trucks for quick, local transportation needs.</p><!-- /.service-card-two__text -->
                         </div><!-- /.service-card-two__content__inner -->
@@ -73,8 +73,8 @@
                     <div class="service-card-two__image">
                         <div class="service-card-two__image__inner">
                             <img src="assets/images/services/service-1-2.jpg" alt="Safety & Reliable <br> Service">
-                            <a href="service-d-safety-reliable.php" class="service-card-two__image__overlay"></a>
-                            <a href="service-d-safety-reliable.php" class="service-card-two__btn">
+                            <a  class="service-card-two__image__overlay"></a>
+                            <a  class="service-card-two__btn">
                                 <span class="service-card-two__btn__icon"><i class="icon-right-arrow-up"></i></span>
                             </a><!-- /.service-card-two__btn -->
                         </div><!-- /.service-card-two__image__inner -->
@@ -83,7 +83,7 @@
                     <div class="service-card-two__content">
                         <div class="service-card-two__content__inner">
                             <h3 class="service-card-two__title">
-                                <a href="service-d-safety-reliable.php">Cargo Transport<br>by Heavy Trucks</a>
+                                <a >Cargo Transport<br>by Heavy Trucks</a>
                             </h3><!-- /.service-card-two__title -->
                             <p class="service-card-two__text">Transport of large cargo using heavy-duty trucks built for long-distance, bulk freight with secure handling.</p><!-- /.service-card-two__text -->
                         </div><!-- /.service-card-two__content__inner -->
@@ -104,8 +104,8 @@
                     <div class="service-card-two__image">
                         <div class="service-card-two__image__inner">
                             <img src="assets/images/services/service-1-3.jpg" alt="On-Time <br> Delivery Service">
-                            <a href="service-d-on-time-delivery.php" class="service-card-two__image__overlay"></a>
-                            <a href="service-d-on-time-delivery.php" class="service-card-two__btn">
+                            <a  class="service-card-two__image__overlay"></a>
+                            <a  class="service-card-two__btn">
                                 <span class="service-card-two__btn__icon"><i class="icon-right-arrow-up"></i></span>
                             </a><!-- /.service-card-two__btn -->
                         </div><!-- /.service-card-two__image__inner -->
@@ -114,7 +114,7 @@
                     <div class="service-card-two__content">
                         <div class="service-card-two__content__inner">
                             <h3 class="service-card-two__title">
-                                <a href="service-d-on-time-delivery.php">Raw Materials Transport<br>by Road</a>
+                                <a >Raw Materials Transport<br>by Road</a>
                             </h3><!-- /.service-card-two__title -->
                             <p class="service-card-two__text">Reliable road transport of raw materials for construction, manufacturing, and industrial supply with timely delivery.</p><!-- /.service-card-two__text -->
                         </div><!-- /.service-card-two__content__inner -->
@@ -166,8 +166,8 @@
                     <div class="service-card-two__image">
                         <div class="service-card-two__image__inner">
                             <img src="assets/images/services/service-1-5.jpg" alt="One Step <br> Solutions">
-                            <a href="service-d-one-step-solutions.php" class="service-card-two__image__overlay"></a>
-                            <a href="service-d-one-step-solutions.php" class="service-card-two__btn">
+                            <a  class="service-card-two__image__overlay"></a>
+                            <a  class="service-card-two__btn">
                                 <span class="service-card-two__btn__icon"><i class="icon-right-arrow-up"></i></span>
                             </a><!-- /.service-card-two__btn -->
                         </div><!-- /.service-card-two__image__inner -->
@@ -176,7 +176,7 @@
                     <div class="service-card-two__content">
                         <div class="service-card-two__content__inner">
                             <h3 class="service-card-two__title">
-                                <a href="service-d-one-step-solutions.php">New & Used<br>Furniture Removal</a>
+                                <a >New & Used<br>Furniture Removal</a>
                             </h3><!-- /.service-card-two__title -->
                             <p class="service-card-two__text">Professional removal and transport of new or used furniture with care, speed, and proper handling equipment.</p><!-- /.service-card-two__text -->
                         </div><!-- /.service-card-two__content__inner -->
@@ -197,8 +197,8 @@
                     <div class="service-card-two__image">
                         <div class="service-card-two__image__inner">
                             <img src="assets/images/services/service-1-6.jpg" alt="24/7 Important <br> Service">
-                            <a href="service-d-24-7-important.php" class="service-card-two__image__overlay"></a>
-                            <a href="service-d-24-7-important.php" class="service-card-two__btn">
+                            <a  class="service-card-two__image__overlay"></a>
+                            <a  class="service-card-two__btn">
                                 <span class="service-card-two__btn__icon"><i class="icon-right-arrow-up"></i></span>
                             </a><!-- /.service-card-two__btn -->
                         </div><!-- /.service-card-two__image__inner -->
@@ -207,7 +207,7 @@
                     <div class="service-card-two__content">
                         <div class="service-card-two__content__inner">
                             <h3 class="service-card-two__title">
-                                <a href="service-d-24-7-important.php">Transport by<br>Refrigerator Trucks</a>
+                                <a >Transport by<br>Refrigerator Trucks</a>
                             </h3><!-- /.service-card-two__title -->
                             <p class="service-card-two__text">Chilled and frozen goods delivery using refrigerator trucks to maintain quality during transport.</p><!-- /.service-card-two__text -->
                         </div><!-- /.service-card-two__content__inner -->

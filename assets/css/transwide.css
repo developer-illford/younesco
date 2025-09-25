@@ -16109,7 +16109,7 @@ li:hover .footer-widget__info__icon {
 }
 .service-card-two:hover .service-card-two__image__overlay {
   transform: translateY(0%);
-  opacity: 1;
+  opacity: 0;
 }
 .service-card-two__btn {
   width: 54px;

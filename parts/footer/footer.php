@@ -37,8 +37,8 @@
                             <div class="footer-widget footer-widget--links footer-widget--links-2">
                                 <h2 class="footer-widget__title">Explore</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="services-2.php">What We Offer</a></li>
-                                    <li><a href="about.php">Our Story</a></li>
+                                    <li><a href="services.php">What We Offer</a></li>
+                                    <li><a href="index.php">Our Story</a></li>
                                     <!-- <li><a href="blog-grid-right.php">Latest News</a></li> -->
                                     <li><a href="contact.php">Help Center</a></li>
                                 </ul><!-- /.list-unstyled footer-widget__links -->

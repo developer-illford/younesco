@@ -43,7 +43,7 @@
                                     </span><!-- /.contact-page__info__icon -->
                                     <div class="contact-page__info__content">
                                         <h4 class="contact-page__info__title">Call for Details?</h4>
-                                        <a href="tel:+23(000)-8050" class="contact-page__info__link">+97 15065 71625</a>
+                                        <a href="tel:+971506571625" class="contact-page__info__link">+97 15065 71625</a>
                                     </div><!-- /.contact-page__info__content -->
                                 </li>
                                 <li>
@@ -52,7 +52,7 @@
                                     </span><!-- /.contact-page__info__icon -->
                                     <div class="contact-page__info__content">
                                         <h4 class="contact-page__info__title">Send Email</h4>
-                                        <a href="mailto:demo@gmail.com" class="contact-page__info__link">youscomk@eim.ae</a>
+                                        <a href="mailto:youscomk@eim.ae" class="contact-page__info__link">youscomk@eim.ae</a>
                                     </div><!-- /.contact-page__info__content -->
                                 </li>
                                 <li>

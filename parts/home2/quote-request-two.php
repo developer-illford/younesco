@@ -92,7 +92,7 @@
                         <img src="assets/images/resources/quote-request-2-1.jpg" alt="quote-request">
                     </div><!-- /.quote-request-two__video__image -->
                     <div class="quote-request-two__video__text">
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-btn video-popup">
+                        <a href="https://www.youtube.com/watch?v=3JT86nbHJtg" class="video-btn video-popup">
                             <i class="fas fa-play"></i>
                             <span class="video-btn__ripple"></span>
                         </a><!-- /.video-btn -->
